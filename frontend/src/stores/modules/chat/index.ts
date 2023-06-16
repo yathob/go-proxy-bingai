@@ -28,8 +28,9 @@ export const useChatStore = defineStore(
         label: 'Bing 官方',
       },
       {
-        baseUrl: 'https://sydney.vcanbb.chat',
+        baseUrl: 'https://sydney.52baipiao.tk',
         label: 'Cloudflare',
+        isCus: true,
       },
       {
         baseUrl: location.origin,
@@ -37,8 +38,7 @@ export const useChatStore = defineStore(
       },
       {
         baseUrl: '',
-        label: '自定义',
-        isCus: true,
+        label: '自定义'
       },
     ]);
     const sydneyCheckTimeoutMS = 3000;
